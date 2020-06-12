@@ -2,12 +2,12 @@
 
 ## Table of Contents
 1. [About Us *(Compulsory Submission)*](#about-us-compulsory-submission)
-2. [Problem Statement *(Compulsory Submission)*](#problem-statement---compulsory-submission--)
-3. [Pitch Video *(Compulsory Submission)*](#pitch-video---compulsory-submission--)
-4. [Project Architecture *(Compulsory Submission)*](#project-architecture---compulsory-submission--)
-5. [Detailed Solution *(Compulsory Submission)*](#detailed-solution---compulsory-submission--)
+2. [Problem Statement *(Compulsory Submission)*](#problem-statement-compulsory-submission)
+3. [Pitch Video *(Compulsory Submission)*](#pitch-video-compulsory-submission)
+4. [Project Architecture *(Compulsory Submission)*](#project-architecture-compulsory-submission)
+5. [Detailed Solution *(Compulsory Submission)*](#detailed-solution-compulsory-submission)
 6. [Proposed Timeline](#proposed-timeline)
-7. [Getting Started *(Compulsory Submission)*](#getting-started---compulsory-submission--)
+7. [Getting Started *(Compulsory Submission)*](#getting-started-compulsory-submission)
 8. [Testing](#testing)
 9. [Live Demo](#live-demo)
 
