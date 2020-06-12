@@ -1,15 +1,15 @@
 # SCDF X IBM Lifesavers’ Innovation Challenge: Call for Code 2020
 
 ## Table of Contents
-1. [About Us *(Compulsory Submission)*](##about-us---compulsory-submission--)
-2. [Problem Statement *(Compulsory Submission)*](##problem-statement---compulsory-submission--)
-3. [Pitch Video *(Compulsory Submission)*](##pitch-video---compulsory-submission--)
-4. [Project Architecture *(Compulsory Submission)*](##project-architecture---compulsory-submission--)
-5. [Detailed Solution *(Compulsory Submission)*](##detailed-solution---compulsory-submission--)
-6. [Proposed Timeline](##proposed-timeline)
-7. [Getting Started *(Compulsory Submission)*](##getting-started---compulsory-submission--)
-8. [Testing](##testing)
-9. [Live Demo](##live-demo)
+1. [About Us *(Compulsory Submission)*](#about-us---compulsory-submission--)
+2. [Problem Statement *(Compulsory Submission)*](#problem-statement---compulsory-submission--)
+3. [Pitch Video *(Compulsory Submission)*](#pitch-video---compulsory-submission--)
+4. [Project Architecture *(Compulsory Submission)*](#project-architecture---compulsory-submission--)
+5. [Detailed Solution *(Compulsory Submission)*](#detailed-solution---compulsory-submission--)
+6. [Proposed Timeline](#proposed-timeline)
+7. [Getting Started *(Compulsory Submission)*](#getting-started---compulsory-submission--)
+8. [Testing](#testing)
+9. [Live Demo](#live-demo)
 
 ## About Us *(Compulsory Submission)*
 We are the **circodeBreakers**! We are a team of NUS undergradutaes from various disciplines. 
