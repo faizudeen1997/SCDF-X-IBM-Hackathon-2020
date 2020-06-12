@@ -1,7 +1,7 @@
 # SCDF X IBM Lifesavers’ Innovation Challenge: Call for Code 2020
 
 ## Table of Contents
-1. [About Us *(Compulsory Submission)*](#about-us---compulsory-submission--)
+1. [About Us *(Compulsory Submission)*](#about-us-compulsory-submission)
 2. [Problem Statement *(Compulsory Submission)*](#problem-statement---compulsory-submission--)
 3. [Pitch Video *(Compulsory Submission)*](#pitch-video---compulsory-submission--)
 4. [Project Architecture *(Compulsory Submission)*](#project-architecture---compulsory-submission--)
