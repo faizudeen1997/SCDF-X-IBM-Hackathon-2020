@@ -60,7 +60,24 @@ We have also identified SCDF’s existing solutions (using the datasets on NFEC�
 - High false alarms
 - High water wastage due to misuse of pressed buttons despite no rubbish chute fires
 - Promotes Bacterial growth
- 
+
+The existing smart infrastructures also include heat sensors that are installed at the bin centres. Leveraging on these existing technologies, we propose to detect developing fires in the chutes so as to trigger early intervention measures whereby the Community First Responders can be notified via the MyResponder mobile application and first respond to the fires instead of relying on the SCDF to dispatch a team of firefighters. This is in line with SCDF’s current Transformation Vision 2025 of Building a Nation of Lifesavers by 2025.  Furthermore, handling of minor rubbish chute fires would build a stronger community of lifesavers in the long-run. The Town Council can also have a user interface through which they will be notified of the rubbish chute fire as well. This allows those in charge of the rubbish chutes to take action as well.
+
+Thus, we propose the following:
+
+1. MQ-7 Gas Sensor (GS) together with Camera Module (CM) placed inside rubbish chutes to detect fire
+2. Both GS and CM will periodically collect data and will be sent over to the IBM Cloudant service
+3. All services are linked using Node-RED
+4. Within IBM Cloudant Foundry service there will be 2 documents - CO Data and Camera Data, storing the data from the respective modules
+5. Using AI and algorithm, we hope to detect a fire for early prevention measures:
+ - Image Classification: Using IBM recognition Model (that has already been trained), to classify if there is a fire present or not. 
+ - JavaScript: The script takes in values from CO Data and infers based on data trend if there is a lot of CO gas 
+6. All outputs store in UI Database 
+ - DBwill update control centre, Town Council UI and update myResponders app
+7. Notifications
+- myResponders App Upgrade
+- Town Council User Interface
+
 ## Pitch Video
 
 ## Project Architecture
