@@ -21,11 +21,11 @@ Let us introduce ourselves!
 </br>
 **Nur Aisyah Lyana** *Year 3 Double Major in Global Studies and Malay Studies*
 
-So as you can probably tell from our team name, we are a bunch of bored kids stuck at home during the Circuit-Breaker and thought that it was a good idea to try something new, that is the SCDF-X-IBM Hackathon. 
+So as you can probably tell from our team name, we were a bunch of bored kids stuck at home during the Circuit-Breaker and thought that it was a good idea to try something new, that is the SCDF-X-IBM Hackathon. 
 
 A very good idea indeed.
 
-Within 48 hours, we've come up with a project solution called ohChute! that tackles the large rubbish chute fires that make up the bulk of the reported fires by the SCDF. Please read on!
+Within 48 hours, we've come up with a project solution called ohChute! that tackles the large rubbish chute fires that consistently make up the bulk of the reported residential fires in Singapore for many years. Please read on!
 
 ## Problem Statement *(Compulsory Submission)*
 This is our problem statement and proposed solution
