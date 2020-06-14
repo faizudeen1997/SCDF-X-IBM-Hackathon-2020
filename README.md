@@ -31,6 +31,7 @@ Within 48 hours, we've come up with a project solution called ohChute! that tack
 This is the problem statement that our group aims to tackle:
 
 # INTEGRATING WITH A SMART ENVIRONMENT
+
 Infrastructure is getting “smart”, with sensors and Internet of things (IoT) increasingly embedded in the built environment (e.g. Punggol Digital District). How might we leverage a network of smart infrastructure in the built environment to make better and more timely sense of emergency incidents (e.g. detection of fires developing, building collapses, falls, road traffic accidents etc.) and to trigger early intervention measures, without the need to activate precious emergency resources?
 
 # The Problem at a Glance
@@ -51,17 +52,16 @@ Before we address the above mentioned problems, we first analyse the current exi
 # Analysing existing solutions
 We have also identified SCDF’s existing solutions (using the datasets on NFEC’s website) and their areas for improvement:
 
-# 1. In 2006, automatic sprinklers were installed within some rubbish chutes in some blocks in Jurong West.
-# Problems with this existing solution: 
+1. In 2006, automatic sprinklers were installed within some rubbish chutes in some blocks in Jurong West. Problems with this existing solution: 
 - High installation costs 
 - The moist environment within the chutes corroded the heat detectors, rendering them ineffective
-### - Promotes bacterial growth 
-### - The discarded water makes the rubbish heavy and inconvenient for the garbage collectors
+- Promotes bacterial growth 
+- The discarded water makes the rubbish heavy and inconvenient for the garbage collectors
 
-### 2. In 2011, buttons to activate the chute flushing system were installed in the common areas of some blocks in Tanjong Pagar GRC, so residents could press them to release water down the chute if a fire broke out.
-Problems with this existing solution: 
-High false alarms
-High water wastage due to misuse of pressed buttons despite no rubbish chute fires
+2. In 2011, buttons to activate the chute flushing system were installed in the common areas of some blocks in Tanjong Pagar GRC, so residents could press them to release water down the chute if a fire broke out. Problems with this existing solution: 
+- High false alarms
+- High water wastage due to misuse of pressed buttons despite no rubbish chute fires
+- Promotes Bacterial growth
 
 ## Pitch Video 
 2min Pitch
