@@ -1,4 +1,4 @@
-# Detailed Solution
+# Detailed Solutions
 In this section, we will be taking a more in depth look into *ohChute!*. As such, this section will elaborate on the 3 main high-level components of the project architecture: 
 
 1. [Onsite Hardware](#onsite-hardware)
