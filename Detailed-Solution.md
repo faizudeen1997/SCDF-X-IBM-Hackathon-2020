@@ -44,11 +44,11 @@ The Fire Detection Algorithm is the main brains behind *ohChute!*. The algorithm
 
 It makes use of a simple model trained with IBM’s Watson Visual Recognition service. The model is able to take in images and perform image classification to determine if there is a fire or not. The model was trained through Machine Learning, by inputting a large dataset of images with fires and without fires (can be retrieved from https://www.kaggle.com/phylake1337/fire-dataset). After training, the model is easily able to distinguish if the image retrieved from the Cloud Foundry has a fire, and also return a Confidence Index (CI) with it.
 
-[INSERT IMAGES]
+![Machine Learning Model](/images/MLTest.PNG)
 
 In addition to the Visual Recognition model, we also make use of a very simple Javascript code as shown below.
 
-[INCLUDE CODE SNIPPET]
+![Code Snippet](/images/javascript.PNG)
 
 The algorithm simply takes in the 10 latest CO values from the cloud and takes the average voltage value. The algorithm sets a threshold of 4.5V (55pm) to determine if the CO levels are excessively high.
 With this 2 heuristics in place, the algorithm will be able to determine if there is a fire. If the Visual Recognition model returns a CI of at least 0.91, and the JS code returns a True, the overall algorithm will return True, to indicate that there is a fire. This boolean value will be stored in a new document within the Cloud Foundry, Result Doc. 
@@ -59,9 +59,10 @@ The frontend Software aims to convert data from the Result Doc into a clean and 
 #### MyResponders App Upgrade
 *ohChute!* aims to upgrade the existing MyResponders application to include 2 new pages - an improved Acceptance Page for rubbish chute fires and a new Instructions Page that will briefly teach users on how to easily put out rubbish chute fires.
 
-When there is a rubbish chute fire, any nearby CFRs will be sent a notification and given the ability to accept the incident through the Acceptance Page, The Acceptance Page will clearly indicate the incident to be a ‘Rubbish Chute Fire’, and the relevant address will be provided. Furthermore, an image of the fire from the Result Doc will also be shown to the CFRs. We believe that an image of the fire will be a great addition as it will provide CFRs with the confidence to accept the incident and manage the fire on their own. This will then reduce the need of sending SCDF responders down to the incident for a minor incident. Once accepted, there will be an Instructions Page which provides CFRs with easy ways to combat rubbish chute fires, shown in the image below
+When there is a rubbish chute fire, any nearby CFRs will be sent a notification and given the ability to accept the incident through the Acceptance Page, The Acceptance Page will clearly indicate the incident to be a ‘Rubbish Chute Fire’, and the relevant address will be provided. Furthermore, an image of the fire from the Result Doc will also be shown to the CFRs. We believe that an image of the fire will be a great addition as it will provide CFRs with the confidence to accept the incident and manage the fire on their own. This will then reduce the need of sending SCDF responders down to the incident for a minor incident. Once accepted, there will be an Instructions Page which provides CFRs with easy ways to combat rubbish chute fires, shown in the image below. (image retrived from an SCDF flyer https://www.scdf.gov.sg/docs/default-source/scdf-library/rubbish-chute-fire---flyer.pdf)
 
-[INCLUDE FLYER SS INSTRUCTIONS]
+![Flyer Instrcutions](images/flyerInstructions.PNG)
+
 #### UI for Town Council
 *ohChute!* will also be able to provide the Town Council with valuable information regarding rubbish chutes in the respective neighbourhoods, and display it a very feasible manner. The UI will mainly be in a table format. Each entry in the table pertains to a single chute number and address/block of the chute. 
 
