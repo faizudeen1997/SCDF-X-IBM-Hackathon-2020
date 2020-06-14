@@ -79,6 +79,7 @@ Thus, we propose the following:
 - Town Council User Interface
 
 ## Pitch Video
+Our pitch video can be found [here](https://youtu.be/3dbrILhdRK0).
 
 ## Project Architecture
 The following image demonstrates the architecture used in this project
