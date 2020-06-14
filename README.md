@@ -86,7 +86,7 @@ The following image demonstrates the architecture used in this project
 ![Architecture](images/projectarchitecture.jpg)
 
 ## Detailed Solutions
-The detailed solution can be found [here](Detailed-Solution.md).
+The detailed solutions of our project can be found [here](Detailed-Solution.md).
 
 ## Tools Used 
 In the development of *ohChute!*, we have made use of the following services from IBM:
