@@ -1,4 +1,4 @@
-# SCDF X IBM Lifesavers’ Innovation Challenge: Call for Code 2020
+# Circodebreakers: ohChute! SCDFxIBM
 
 ## Table of Contents
 ### 1. [About Us](#about-us)
