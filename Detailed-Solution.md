@@ -10,7 +10,7 @@ All these components work hand in hand to provide a solution that is autonomous,
 ## Onsite Hardware
 *ohChute!* involves the installation of simple hardware materials within the rubbish chute collection points of every HDB block around the island. Our solution aims to build on a simple hardware unit proposed in the study "FireNet: A Specialized Lightweight Fire & Smoke Detection Model for Real-Time IoT Applications". The figure below shows overview of the complete IoT enabled fire detection unit, proposed in this study:
 
-[INCLUDE PICTURE HERE]
+![Sample solution provided in "FireNet: A Specialized Lightweight Fire & Smoke Detection Model for Real-Time IoT Applications"](/images/sampleDetectionModel.PNG)
 
 Similarly, our solution involves the use of the Arduino Uno and Raspberry Pi. In addition to these development boards, we will be connecting peripherals such as a Carbon Monoxide (CO) Gas Sensor and a Camera module. The following sections will give a deeper explanation on the reasoning behind the choices of these components.
 
@@ -43,9 +43,13 @@ The Cloud Foundry is an essential open-source platform that we can use to store 
 The Fire Detection Algorithm is the main brains behind *ohChute!*. The algorithm takes in data from the Cloud Foundry and processes them, to determine if there is a fire. The algorithm has 2 main heuristics to allow this. 
 
 It makes use of a simple model trained with IBM’s Watson Visual Recognition service. The model is able to take in images and perform image classification to determine if there is a fire or not. The model was trained through Machine Learning, by inputting a large dataset of images with fires and without fires (can be retrieved from https://www.kaggle.com/phylake1337/fire-dataset). After training, the model is easily able to distinguish if the image retrieved from the Cloud Foundry has a fire, and also return a Confidence Index (CI) with it.
+
 [INSERT IMAGES]
+
 In addition to the Visual Recognition model, we also make use of a very simple Javascript code as shown below.
+
 [INCLUDE CODE SNIPPET]
+
 The algorithm simply takes in the 10 latest CO values from the cloud and takes the average voltage value. The algorithm sets a threshold of 4.5V (55pm) to determine if the CO levels are excessively high.
 With this 2 heuristics in place, the algorithm will be able to determine if there is a fire. If the Visual Recognition model returns a CI of at least 0.91, and the JS code returns a True, the overall algorithm will return True, to indicate that there is a fire. This boolean value will be stored in a new document within the Cloud Foundry, Result Doc. 
 
