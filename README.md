@@ -22,16 +22,16 @@ So as you can probably tell from our team name, we were a bunch of bored kids st
 
 A very good idea indeed.
 
-Within 48 hours, we've come up with a project solution called ohChute! that tackles the large rubbish chute fires that consistently make up the bulk of the reported residential fires in Singapore for many years. Please read on!
+Within 48 hours, we've come up with a project solution called *ohChute!* that tackles the large rubbish chute fires that consistently make up the bulk of the reported residential fires in Singapore for many years. Please read on!
 
 ## Problem Statement 
 This is the problem statement that our group aims to tackle:
 
-##### INTEGRATING WITH A SMART ENVIRONMENT
+#### Integrating with a Smart Environment
 
 Infrastructure is getting “smart”, with sensors and Internet of things (IoT) increasingly embedded in the built environment (e.g. Punggol Digital District). How might we leverage a network of smart infrastructure in the built environment to make better and more timely sense of emergency incidents (e.g. detection of fires developing, building collapses, falls, road traffic accidents etc.) and to trigger early intervention measures, without the need to activate precious emergency resources?
 
-##### The Problem at a Glance
+#### The Problem at a Glance
 
 According to the available fire statistics from the National Fire and Civil Emergency Preparedness Council (NFEC), rubbish chute fires have consistently formed the bulk of all fires (more than 50%) received by the SCDF from 2004 to 2015. Even in a recent news article reported by The Straits Times (Dec 12, 2018), rubbish chute fires still constitute 1 in 2 of residential fires.
 
@@ -39,8 +39,9 @@ Rubbish chute fires are considered minor cases by the SCDF since the fires have 
 
 Yet, 
 
-##### 1. SCDF still receives many calls from the public on the 995 emergency hotline, which is already often busy due to medical emergencies, and
-##### 2. SCDF continues to activate its precious emergency resources by physically dispatching a fire vehicle (typically the Red Rhino) and a team of 4 firefighters to assess the situation on-the-ground as well as to record details of such events to identify hotspots of rubbish chute fire cases. 
+1. SCDF still receives many calls from the public on the 995 emergency hotline, which is already often busy due to medical emergencies, and
+
+2. SCDF continues to activate its precious emergency resources by physically dispatching a fire vehicle (typically the Red Rhino) and a team of 4 firefighters to assess the situation on-the-ground as well as to record details of such events to identify hotspots of rubbish chute fire cases. 
 
 As seen from the above, rubbish chute fires cause a strain on precious emergency resources such as the available call operators and firefighting vehicles which could be better used for more serious emergencies. Furthermore, with an increasingly aging population, the number of available firefighters in the future will be significantly reduced. Thus, it is even more crucial to delegate limited manpower resources to respond to critical emergencies.
 
